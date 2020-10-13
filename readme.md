@@ -218,13 +218,22 @@ If you already have Mongo installed, skip to the **Mongo Shell** section.
 In a new tab in Terminal, run the following:
 
 ```
-$ mongod --dbpath /users/$(whoami)/data/db/
+mongod --dbpath /users/$(whoami)/data/db/
+```
+or
+
+```
+brew services start mongodb-community
+```
+or if not on catalina
+
+```
+mongod
 ```
 
 You should see a bunch of output with the prompt hanging:
 
 ```bash
-$ mongod --dbpath /users/$(whoami)/data/db/ 
 
 2019-04-22T10:08:30.358-0400 I CONTROL  [initandlisten] MongoDB starting : pid=21047 port=27017 dbpath=/data/db 64-bit host=Erins-MacBook-Pro.local
 2019-04-22T10:08:30.358-0400 I CONTROL  [initandlisten] db version v3.6.5
