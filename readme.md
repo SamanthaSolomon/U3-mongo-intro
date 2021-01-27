@@ -424,7 +424,7 @@ Drops the **current** database. Go ahead and drop your database now.
 
 <hr>
 
-**:alarm clock:** Activty - 5min 
+**:alarm_clock:** Activty - 5min 
 
 Add a few more restaurants.
 
