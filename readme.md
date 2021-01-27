@@ -277,12 +277,6 @@ You should see a bunch of output with the prompt hanging:
 > This is good news, `mongod` just starts up a mongo server locally. **NOTE**:
 > you need this running in order to use the mongo cli
 
-### Want More Info?
-
-```
-$ brew info mongo
-```
-
 ### Start The Shell
 
 Back in your original Terminal tab:
@@ -421,7 +415,7 @@ That should return a document with the following fields:
 * `address`
 * `cuisine`
 
-**Q**. What is surprising/unexpected?
+**question What is surprising/unexpected?**
 
 * Where did `restaurants` come from?
 * What is `_id`?
