@@ -23,7 +23,7 @@ By the end of this, developers should be able to:
 * Perform CRUD on documents in a collection using the Mongo CLI
 * Build a simple node CLI to query a MongoDB collection
 
-## Databases (15 minutes / 0:15)
+## Databases
 
 There are many ways to store data on a computer (e.g., writing to a text file,
 a binary file) but databases offer a number of advantages:
@@ -82,7 +82,7 @@ While this is a bit technical, it's worth clarifying some terminology...
 * **Database Management System**: The software that lets a user interact (query) the data in a database. Examples are MongoDB, PostgreSQL, MySQL, etc.
 * **Database CLI**: A tool offered by most DBMSs that allows us to interact with and query your database from the command line. For MongoDB, we'll use `mongo`. We'll be mostly working in the CLI today.
 
-## Document Database (10 min / 0:25)
+## Document Database
 
 ### A basic example of a `Person` document:
 
@@ -148,7 +148,7 @@ Let's take a look at the official [Mongo Documentaion](https://docs.mongodb.com/
 
 What do you see in the data above?
 
-## Collections (5 min / 0:30)
+## Collections 
 
 MongoDB stores documents in collections.
 
@@ -159,7 +159,7 @@ MongoDB stores documents in collections.
 Great, now that we have a high level understanding of what Mongo is and what
 purpose it serves, let's look at how to use it!
 
-## Installation / Starting (10 min / 0:40)
+## Installation / Starting 
 
 Check to make sure MongoDB is installed by running the following command in
 a terminal window:
@@ -217,7 +217,7 @@ If you already have Mongo installed, skip to the **Mongo Shell** section.
 
 > [Linux Instructions on the mongodb website](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
 
-## Mongo shell (10 min / 0:50)
+## Mongo shell 
 
 ### Start Mongo:
 
@@ -611,7 +611,7 @@ Verify:
 
 > We already did this! (The address 'object' / 'subdocument')
 
-## Closing: Review Mongo's Key Advantages (15 min / 2:15)
+## Closing: Review Mongo's Key Advantages
 
 * Usability
 * High Performance
