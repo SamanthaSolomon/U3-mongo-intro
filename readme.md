@@ -221,17 +221,19 @@ If you already have Mongo installed, skip to the **Mongo Shell** section.
 
 ### Start Mongo:
 
-In a new tab in Terminal, run the following:
+In order to work with Mongo we first need to start the mongo service. 
 
-```
-mongod --dbpath /users/$(whoami)/data/db/
-```
-or
+So in a new tab in Terminal and lets confirm if you have the mongo service available. 
 
 ```
 brew services start mongodb-community
 ```
-or if not on catalina
+or
+
+```
+mongod --dbpath /users/$(whoami)/data/db/ 
+```
+or if not on **Catalina**
 
 ```
 mongod
@@ -297,8 +299,6 @@ Also:
 * `<up-arrow>` and the `<down-arrow>` for history.
 </details>
 
-## Break (10 min / 1:00)
-
 ### CLI: Creating a Database
 
 In the Mongo shell, let's create our first database, one which we will be using
@@ -332,7 +332,7 @@ $ show dbs
 > **Note**: we don't see `restaurant_db` listed. It isn't until we add
 > a document to our database that our db will show up in `show dbs`!
 
-## CLI: Create a record (15 min / 1:20)
+## CLI: Create a record 
 
 ### Insert
 
@@ -498,6 +498,14 @@ db.restaurants.insert([
 * A record’s unique immutable identifier generated upon creation of a new instance.
 * In relational databases, the primary key is usually an *id* field, the value of which is typically an *Integer*.
 * In MongoDB, the *_id* field is usually a *[BSON](http://docs.mongodb.org/manual/reference/glossary/#term-bson) [ObjectId](http://docs.mongodb.org/manual/reference/glossary/#term-objectid)*.
+
+<hr> 
+
+**alarm_clock Activity**
+
+Let's take a moment to look at the Mongo Docs for [Primary Key](https://docs.mongodb.com/manual/reference/glossary/#term-primary-key)
+
+<hr>
 
 ## Break (10 min / 1:35)
 
