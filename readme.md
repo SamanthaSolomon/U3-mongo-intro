@@ -110,7 +110,7 @@ While this is a bit technical, it's worth clarifying some terminology...
 
 <hr>
 
-:alarm_clock: Activity
+**:alarm_clock: Activity**
 
 Let's take a look at the official [Mongo Documentaion](https://docs.mongodb.com/manual/introduction/)
 
@@ -424,7 +424,7 @@ Drops the **current** database. Go ahead and drop your database now.
 
 <hr>
 
-**alarm clock** Activty - 5min 
+**:alarm clock:** Activty - 5min 
 
 Add a few more restaurants.
 
@@ -507,7 +507,7 @@ db.restaurants.insert([
 
 <hr> 
 
-**alarm_clock Activity**
+**:alarm_clock: Activity**
 
 Let's take a moment to look at the Mongo Docs for [Primary Key](https://docs.mongodb.com/manual/reference/glossary/#term-primary-key)
 
