@@ -415,7 +415,7 @@ That should return a document with the following fields:
 * `address`
 * `cuisine`
 
-**question What is surprising/unexpected?**
+**:question: What is surprising/unexpected?**
 
 * Where did `restaurants` come from?
 * What is `_id`?
