@@ -422,7 +422,11 @@ New collection:
 
 Drops the **current** database. Go ahead and drop your database now.
 
-### Exercise (5 minutes): Add a few more restaurants.
+<hr>
+
+**alarm clock** Activty - 5min 
+
+Add a few more restaurants.
 
 Using the Mongo Shell CLI, add at least 4 new restaurant documents to your
 `restaurants` collection.
@@ -431,6 +435,8 @@ Using the Mongo Shell CLI, add at least 4 new restaurant documents to your
 / paste. It will help you now & later.
 
 > Prompt: Did anyone insert multiple at one time?
+
+<hr>
 
 Let's recreate the steps together:
 
@@ -493,7 +499,7 @@ db.restaurants.insert([
 
 > Note that there's no `cuisine` key in the last record. Does that matter?
 
-## [Primary key](http://docs.mongodb.org/manual/reference/glossary/#term-primary-key) (5 min / 1:25)
+## Primary Keys
 
 * A record’s unique immutable identifier generated upon creation of a new instance.
 * In relational databases, the primary key is usually an *id* field, the value of which is typically an *Integer*.
@@ -507,9 +513,9 @@ Let's take a moment to look at the Mongo Docs for [Primary Key](https://docs.mon
 
 <hr>
 
-## Break (10 min / 1:35)
+## Break 
 
-## CLI: QUERY for Records (25 min / 2:00)
+## CLI: QUERY for Records 
 
 Breaking down the anatomy of a typical query with Mongo:
 
