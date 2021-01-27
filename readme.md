@@ -114,6 +114,8 @@ While this is a bit technical, it's worth clarifying some terminology...
 
 Let's take a look at the official [Mongo Documentaion](https://docs.mongodb.com/manual/introduction/)
 
+<hr>
+
 ### More complicated example of a `Restaurant` document:
 
 ```json
