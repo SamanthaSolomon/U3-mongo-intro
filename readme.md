@@ -152,7 +152,7 @@ What do you see in the data above?
 
 MongoDB stores documents in collections.
 
-* Collections are analogous to tables in relational databases
+* Collections are analogous to `tables` in relational databases
 * Does **NOT** require its documents to have the same schema or structure
 * Each document stored in a collection must have a unique `_id` field that acts as a primary key
 
