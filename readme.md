@@ -415,7 +415,11 @@ That should return a document with the following fields:
 * `address`
 * `cuisine`
 
+<hr>
+
 **:question: What is surprising/unexpected?**
+
+<hr>
 
 * Where did `restaurants` come from?
 * What is `_id`?
