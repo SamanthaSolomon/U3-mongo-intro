@@ -95,7 +95,9 @@ While this is a bit technical, it's worth clarifying some terminology...
 }
 ```
 
+
 **:question: What do you see in the data above?**
+Note - trailing commas okay in JS but NOT in JSON, needs key value pair, keys must be strings, values can be string, number or bolean
 
 ### A Document
 
