@@ -102,7 +102,7 @@ While this is a bit technical, it's worth clarifying some terminology...
 **A record in MongoDB is a called document.**
 
 * A data structure composed of pairs or fields (keys) and values
-  * Similar to JSON objects ([JavaScript Object Notation](https://www.mongodb.com/json-and-bson)
+  * Similar to JSON objects [JavaScript Object Notation](https://www.mongodb.com/json-and-bson)
   * Stored as BSON [(binary-encoded JSON)](http://bsonspec.org/ )
 * A document can support all data types - numbers, strings, booleans, even arrays and other documents (objects)
 * Fields may include other documents and arrays of documents
