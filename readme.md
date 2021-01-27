@@ -108,7 +108,11 @@ While this is a bit technical, it's worth clarifying some terminology...
 * Fields may include other documents and arrays of documents
 * A document is analogous to a row in a table
 
-[Documentation Here](https://docs.mongodb.com/manual/introduction/)
+<hr>
+
+:alarm_clock: Activity
+
+Let's take a look at the official [Mongo Documentaion](https://docs.mongodb.com/manual/introduction/)
 
 ### More complicated example of a `Restaurant` document:
 
